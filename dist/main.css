@@ -37,6 +37,7 @@
 #zazu div.results ul {
   list-style-type: none;
   margin: 0;
+  max-height: 400px;
   overflow: hidden;
   padding: 0;
   width: 50%
