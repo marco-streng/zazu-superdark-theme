@@ -3,7 +3,6 @@
   background-color: rgba(0, 0, 0, .95);
   border-radius: 5px;
   cursor: move;
-  max-height: 450px;
   padding: 15px
 }
 
@@ -37,8 +36,9 @@
 #zazu div.results ul {
   list-style-type: none;
   margin: 0;
-  max-height: 407px;
+  max-height: 400px;
   overflow: hidden;
+  overflow-y: auto;
   padding: 0;
   width: 50%
 }
