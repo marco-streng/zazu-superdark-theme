@@ -9,7 +9,7 @@
   border-radius: 5px;
   cursor: move;
   max-height: 450px;
-  padding: 20px;
+  padding: 15px;
 
   & input {
     -webkit-app-region: no-drag;
@@ -63,15 +63,18 @@
         }
 
         & .icon {
-          color: #fff;
           float: left;
-          font-size: 30px;
           height: 40px;
           line-height: 40px;
           margin: 3px 20px 0 5px;
           text-align: center;
           transition: all 0.15s ease-in-out;
           width: 40px;
+        }
+
+        & .icon.fa {
+          color: #fff;
+          font-size: 30px;
         }
 
         & h2,

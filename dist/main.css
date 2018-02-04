@@ -4,7 +4,7 @@
   border-radius: 5px;
   cursor: move;
   max-height: 450px;
-  padding: 20px
+  padding: 15px
 }
 
 #zazu input {
@@ -68,9 +68,7 @@
 }
 
 #zazu div.results ul li .icon {
-  color: #fff;
   float: left;
-  font-size: 30px;
   height: 40px;
   line-height: 40px;
   margin: 3px 20px 0 5px;
@@ -78,6 +76,11 @@
   -webkit-transition: all 0.15s ease-in-out;
   transition: all 0.15s ease-in-out;
   width: 40px;
+}
+
+#zazu div.results ul li .icon.fa {
+  color: #fff;
+  font-size: 30px;
 }
 
 #zazu div.results ul li h2,
