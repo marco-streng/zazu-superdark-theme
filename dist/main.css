@@ -1,3 +1,9 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
 #zazu {
   -webkit-app-region: drag;
   background-color: rgba(0, 0, 0, .95);
@@ -16,7 +22,7 @@
   font-weight: 400;
   outline: none;
   padding: 0;
-  width: 100%
+  width: 100%;
 }
 
 #zazu input::-webkit-input-placeholder {
@@ -30,7 +36,7 @@
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
-          flex-direction: row
+          flex-direction: row;
 }
 
 #zazu div.results ul {
@@ -38,7 +44,7 @@
   margin: 0;
   overflow: hidden;
   padding: 0;
-  width: 50%
+  width: 50%;
 }
 
 #zazu div.results ul:last-child {
@@ -53,7 +59,7 @@
   padding: 10px 8px;
   -webkit-transition: background-color 0.2s ease-in-out;
   transition: background-color 0.2s ease-in-out;
-  width: 100%
+  width: 100%;
 }
 
 #zazu div.results ul li:first-of-type {
@@ -92,7 +98,7 @@
 
 #zazu div.results ul li h2 {
   color: rgb(220, 220, 220);
-  font-size: 22px
+  font-size: 22px;
 }
 
 #zazu div.results ul li h2:last-child {
@@ -106,7 +112,7 @@
 
 #zazu div.results ul li.active,
         #zazu div.results ul li:hover {
-  background-color: rgba(255, 255, 255, .05)
+  background-color: rgba(255, 255, 255, .05);
 }
 
 #zazu div.results ul li.active .icon, #zazu div.results ul li:hover .icon {
