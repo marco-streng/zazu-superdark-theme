@@ -4,6 +4,8 @@
 
 [![Build Status](https://travis-ci.org/marco-streng/zazu-superdark-theme.svg?branch=master)](https://travis-ci.org/marco-streng/zazu-superdark-theme)
 
+![screenshot](./screenshot.png)
+
 ## Install
 
 Add `marco-streng/zazu-superdark-theme` as value to `theme` inside of your `~/.zazurc.json` file.

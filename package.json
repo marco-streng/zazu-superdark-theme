@@ -8,7 +8,8 @@
   "scripts": {
     "build": "postcss src/main.css --use postcss-cssnext --dir dist --map",
     "watch": "npm run build -- --watch",
-    "lint": "stylelint src/main.css"
+    "lint": "stylelint src/main.css",
+    "test": "npm run lint"
   },
   "keywords": [
     "zazu",
